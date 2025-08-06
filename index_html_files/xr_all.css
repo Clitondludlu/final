@@ -1,0 +1,84 @@
+@media screen and (max-width: 879px) {
+.xr_mvp_2 {display: block;}
+.xr_mvp_1 {display: none;}
+.xr_pbd {margin-left: -240px;}
+#xr_xr {width: 480px; height: 15783px}
+}
+@media screen and (min-width: 880px) {
+.xr_mvp_2 {display: none;}
+.xr_mvp_1 {display: block;}
+.xr_pbd {margin-left: -640px;}
+#xr_xr {width: 1280px; height: 7768px}
+}
+@media screen and (max-width: 879px) {
+.xr_mvp_4 {display: block;}
+.xr_mvp_3 {display: none;}
+.xr_pbd {margin-left: -240px;}
+#xr_xr {width: 480px; height: 1091px}
+}
+@media screen and (min-width: 880px) {
+.xr_mvp_4 {display: none;}
+.xr_mvp_3 {display: block;}
+.xr_pbd {margin-left: -640px;}
+#xr_xr {width: 1280px; height: 698px}
+}
+@media screen and (max-width: 879px) {
+.xr_mvp_6 {display: block;}
+.xr_mvp_5 {display: none;}
+.xr_pbd {margin-left: -240px;}
+#xr_xr {width: 480px; height: 7602px}
+}
+@media screen and (min-width: 880px) {
+.xr_mvp_6 {display: none;}
+.xr_mvp_5 {display: block;}
+.xr_pbd {margin-left: -640px;}
+#xr_xr {width: 1280px; height: 2884px}
+}
+@media screen and (max-width: 879px) {
+.xr_mvp_8 {display: block;}
+.xr_mvp_7 {display: none;}
+.xr_pbd {margin-left: -240px;}
+#xr_xr {width: 480px; height: 672px}
+}
+@media screen and (min-width: 880px) {
+.xr_mvp_8 {display: none;}
+.xr_mvp_7 {display: block;}
+.xr_pbd {margin-left: -640px;}
+#xr_xr {width: 1280px; height: 698px}
+}
+@media screen and (max-width: 879px) {
+.xr_mvp_10 {display: block;}
+.xr_mvp_9 {display: none;}
+.xr_pbd {margin-left: -240px;}
+#xr_xr {width: 480px; height: 4177px}
+}
+@media screen and (min-width: 880px) {
+.xr_mvp_10 {display: none;}
+.xr_mvp_9 {display: block;}
+.xr_pbd {margin-left: -640px;}
+#xr_xr {width: 1280px; height: 1608px}
+}
+@media screen and (max-width: 879px) {
+.xr_mvp_12 {display: block;}
+.xr_mvp_11 {display: none;}
+.xr_pbd {margin-left: -240px;}
+#xr_xr {width: 480px; height: 1465px}
+}
+@media screen and (min-width: 880px) {
+.xr_mvp_12 {display: none;}
+.xr_mvp_11 {display: block;}
+.xr_pbd {margin-left: -640px;}
+#xr_xr {width: 1280px; height: 805px}
+}
+@media screen and (max-width: 879px) {
+.xr_mvp_14 {display: block;}
+.xr_mvp_13 {display: none;}
+.xr_pbd {margin-left: -240px;}
+#xr_xr {width: 480px; height: 5604px}
+}
+@media screen and (min-width: 880px) {
+.xr_mvp_14 {display: none;}
+.xr_mvp_13 {display: block;}
+.xr_pbd {margin-left: -640px;}
+#xr_xr {width: 1280px; height: 2272px}
+}
