@@ -13,7 +13,7 @@ design.html
 design.html
 accesiries.html
 accesiries.html
-index_html_files/755@2x.webp
+index_html_files/999@2x.webp
 index_html_files/2.webp
 index_html_files/2@2x.webp
 index_html_files/3.webp
@@ -70,7 +70,7 @@ index_html_files/785.webp
 index_html_files/785@2x.webp
 index_html_files/786.webp
 index_html_files/786@2x.webp
-index_html_files/787@2x.webp
+index_html_files/1031@2x.webp
 index_html_files/479.webp
 index_html_files/479@2x.webp
 index_html_files/480.webp
@@ -150,7 +150,7 @@ index_html_files/827.webp
 index_html_files/827@2x.webp
 index_html_files/675.webp
 index_html_files/675@2x.webp
-index_html_files/829@2x.webp
+index_html_files/1073@2x.webp
 index_html_files/830.webp
 index_html_files/831.webp
 index_html_files/832.webp
@@ -191,7 +191,7 @@ index_html_files/850.webp
 index_html_files/850@2x.webp
 index_html_files/742.webp
 index_html_files/742@2x.webp
-index_html_files/852@2x.webp
+index_html_files/1096@2x.webp
 index_html_files/529.webp
 index_html_files/529@2x.webp
 index_html_files/530.webp
@@ -382,7 +382,7 @@ index_html_files/990@2x.webp
 index_html_files/995.webp
 index_html_files/998.webp
 index_html_files/998@2x.webp
-index_html_files/Sequence 0b1_1.mp4
+index_html_files/Sequence 01_1.mp4
 index_html_files/xara_font_1.woff
 index_html_files/xara_font_2.woff
 index_html_files/xara_font_3.woff
