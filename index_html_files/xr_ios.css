@@ -38,13 +38,13 @@
 .xr_mvp_8 {display: block;}
 .xr_mvp_7 {display: none;}
 .xr_pbd {margin-left: -240px;}
-#xr_xr {width: 480px; height: 672px}
+#xr_xr {width: 480px; height: 3271px}
 }
 @media screen and (orientation: portrait) and (min-device-width: 880px), screen and (orientation: landscape) and (min-device-height: 880px) {
 .xr_mvp_8 {display: none;}
 .xr_mvp_7 {display: block;}
 .xr_pbd {margin-left: -640px;}
-#xr_xr {width: 1280px; height: 698px}
+#xr_xr {width: 1280px; height: 2381px}
 }
 @media screen and (orientation: portrait) and (max-device-width: 879px), screen and (orientation: landscape) and (max-device-height: 879px) {
 .xr_mvp_10 {display: block;}

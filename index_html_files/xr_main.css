@@ -78,6 +78,7 @@ body {text-align:center;}
 .xr_c_T1_Lighter {color:#E7DED6;}
 .xr_c_T1_Dark {color:#715F50;}
 .xr_c_Contrasting_Text {color:#FFFFFF;}
+.xr_c_Light_Text {color:#FFFFFF;}
 .xr_c_T1_Light {color:#C4B2A3;}
 .xr_c_Theme_Color_2 {color:#686C89;}
 .xr_c_T2_Darker {color:#2B2F47;}
@@ -102,6 +103,7 @@ body {text-align:center;}
 .xr_c_T5_Light {color:#BCC7CD;}
 .xr_c_T5_Lighter {color:#DCE2E6;}
 .xr_c_Background {color:#FFFFFF;}
+.xr_c_Dark_Text {color:#424242;}
 .xr_bgb0, .xr_bgc0 {background-color: #FFFFFF;}
 .xr_bgb1, .xr_bgc1 {background-color: #FFFFFF;}
 #xr_nb1 {font-family:Trebuchet MS, Tahoma, sans-serif; font-size:16px;}
