@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-ZA"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Custom Press SA</title><meta name="description" content="Heat presses, DTF printers and a vinyl cutter, plus blanks, supplies and custom DTF, sublimation and vinyl printing from Duduza, Gauteng.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f5f2;--card:#fff;--ink:#17161c;--mute:#5b5964;--line:#e2dfd7;--brand:#c8195f;--cyan:#0b84a8;--yel:#f2b705;--wa:#128c4a;--dark:#17161c;--r:12px}
+@media(prefers-color-scheme:dark){:root{--bg:#121116;--card:#1c1b22;--ink:#f1efe9;--mute:#a7a4ae;--line:#34323b;--brand:#ff5c9a;--cyan:#4cc3e6;--wa:#2fbf71;--dark:#0c0b0f}}
+*{box-sizing:border-box}[hidden]{display:none!important}html{scroll-padding-top:6rem}
+body{margin:0;background:var(--bg);color:var(--ink);font:1rem/1.6 "Source Sans 3",system-ui,"Segoe UI",sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;line-height:1.12;margin:0 0 .5em;letter-spacing:-.02em}
+h1{font-size:clamp(2.1rem,5vw,3.4rem)}h2{font-size:clamp(1.5rem,3vw,2rem)}h3{font-size:1.05rem;letter-spacing:0}
+a{color:inherit}.wrap{max-width:1160px;margin:0 auto;padding:0 1.25rem}
+:focus-visible{outline:3px solid var(--cyan);outline-offset:2px}
+.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;background:#fff;color:#000;padding:.5rem 1rem;z-index:99}
+.bar{background:var(--dark);color:#d9d6de;font-size:.85rem}.bar .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding-block:.4rem}.bar a{text-decoration:none}
+header{position:sticky;top:0;z-index:20;background:var(--dark);color:#fff;border-bottom:3px solid var(--brand)}
+.hd{display:flex;align-items:center;gap:1rem;padding-block:.7rem;flex-wrap:wrap}
+.brand{font:700 1.2rem "Bricolage Grotesque",sans-serif;text-decoration:none;display:flex;align-items:center;gap:.6rem;white-space:nowrap}
+.dots{display:inline-flex}.dots i{width:.95rem;height:.95rem;border-radius:50%;margin-left:-.32rem}.dots i:nth-child(1){background:var(--cyan);margin:0}.dots i:nth-child(2){background:var(--brand)}.dots i:nth-child(3){background:var(--yel)}
+.search{flex:1;min-width:200px;position:relative}.search input{width:100%;padding:.6rem .9rem;border-radius:8px;border:0;font:inherit;background:#fff;color:#111}
+nav{display:flex;gap:.1rem;flex-wrap:wrap;width:100%}nav a{color:#e9e7ee;text-decoration:none;padding:.35rem .75rem;border-radius:6px;font-weight:600;font-size:.93rem}nav a:hover{background:#2b2933}nav a[aria-current]{background:var(--brand);color:#fff}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.4rem;padding:.65rem 1.1rem;border-radius:9px;background:var(--ink);color:var(--bg);font:700 .95rem inherit;font-family:inherit;text-decoration:none;border:2px solid var(--ink);cursor:pointer}
+.btn.pri{background:var(--brand);border-color:var(--brand);color:#fff}.btn.wa{background:var(--wa);border-color:var(--wa);color:#fff}.btn.ghost{background:none;color:var(--ink)}.btn.sm{padding:.45rem .8rem;font-size:.88rem}.btn:disabled{opacity:.5;cursor:not-allowed}
+header .btn.ghost{color:#fff;border-color:#4a4753}.cnt{background:var(--brand);color:#fff;border-radius:99px;padding:0 .45rem;font-size:.8rem}
+.hero{padding:3rem 0}.hero .wrap{display:grid;gap:2.5rem;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));align-items:center}
+.hero p.lede{color:var(--mute);font-size:1.15rem;max-width:34rem}.acts{display:flex;gap:.7rem;flex-wrap:wrap;margin:1.4rem 0}
+.ticks{list-style:none;padding:0;margin:0;display:grid;gap:.35rem;color:var(--mute)}.ticks li:before{content:"\2713";color:var(--brand);font-weight:700;margin-right:.5rem}
+.fx{display:grid;grid-template-columns:1.3fr 1fr;grid-template-rows:1fr 1fr;gap:.8rem;aspect-ratio:1.15}.fx .ph{border-radius:var(--r)}.fx .ph:first-child{grid-row:span 2}
+.ph{background:#fff;border:1px solid var(--line);border-radius:8px;display:grid;place-items:center;overflow:hidden;aspect-ratio:4/3}.ph img{width:100%;height:100%;object-fit:contain;padding:.6rem;background:#fff}.ph.none{background:var(--bg)}.ph.none .dots i{width:1.6rem;height:1.6rem}
+.trust{background:var(--card);border-block:1px solid var(--line)}.trust .wrap{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));padding-block:1.1rem}.trust b{display:block}.trust span{color:var(--mute);font-size:.92rem}
+section{padding:3rem 0}.sh{display:flex;justify-content:space-between;align-items:end;gap:1rem;flex-wrap:wrap;margin-bottom:1.2rem}.sh a{font-weight:600}
+.grid{display:grid;gap:1.1rem;grid-template-columns:repeat(auto-fill,minmax(235px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:.9rem;display:flex;flex-direction:column;gap:.45rem}
+.card h3 a{text-decoration:none}.card h3 a:hover{text-decoration:underline}.card .ph{cursor:pointer}.cat{font-size:.78rem;color:var(--cyan);font-weight:700}
+.chips{display:flex;gap:.3rem;flex-wrap:wrap}.chips span{font-size:.75rem;background:var(--bg);border:1px solid var(--line);border-radius:99px;padding:.05rem .55rem;color:var(--mute)}
+.price{font:700 1.3rem "Bricolage Grotesque",sans-serif}.price small{font:400 .8rem "Source Sans 3",sans-serif;color:var(--mute)}.oos{color:var(--brand);font-weight:700}
+.row{display:flex;gap:.45rem;flex-wrap:wrap;margin-top:auto;padding-top:.3rem}
+.cats .card{padding:0;overflow:hidden;text-decoration:none}.cats .card .ph{border:0;border-radius:0;aspect-ratio:16/9}.cats .card div.t{padding:.8rem 1rem}.cats p{margin:0;color:var(--mute);font-size:.9rem}
+.shop{display:grid;gap:1.5rem;grid-template-columns:230px 1fr;align-items:start}@media(max-width:800px){.shop{grid-template-columns:1fr}}
+.side{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:1rem;display:grid;gap:1rem}.side h3{margin:0 0 .3rem}
+.side button.f{display:flex;justify-content:space-between;width:100%;text-align:left;font:inherit;background:none;border:0;color:var(--ink);padding:.3rem .5rem;border-radius:6px;cursor:pointer}.side button.f[aria-pressed=true]{background:var(--brand);color:#fff}
+select,input,textarea{font:inherit;padding:.6rem .8rem;border:1.5px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);width:100%}
+.pg{padding:2.2rem 0 1rem}.pg p,.lede{color:var(--mute);max-width:42rem}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line)}th,td{text-align:left;padding:.75rem 1rem;border-bottom:1px solid var(--line)}th{font-size:.88rem;color:var(--mute)}
+.split{display:grid;gap:2.5rem;grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
+.band{background:var(--dark);color:#fff;border-radius:var(--r);padding:2rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;align-items:center}.band p{margin:0;color:#c9c6d0}
+form{display:grid;gap:.9rem}label{font-weight:600;display:grid;gap:.3rem}.note{font-size:.86rem;color:var(--mute)}.err{color:var(--brand);min-height:1.2em;font-size:.9rem}
+footer{background:var(--dark);color:#c9c6d0;padding:2.5rem 0;margin-top:3rem;font-size:.93rem}footer .wrap{display:grid;gap:2rem;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}footer h3{color:#fff}footer a{display:block;padding:.12rem 0;text-decoration:none}footer a:hover{text-decoration:underline}
+dialog{border:1px solid var(--line);border-radius:14px;padding:1.4rem;width:min(560px,94vw);background:var(--bg);color:var(--ink);max-height:92vh}dialog::backdrop{background:rgba(0,0,0,.55)}
+.li{display:flex;justify-content:space-between;gap:1rem;padding:.6rem 0;border-bottom:1px solid var(--line);align-items:center}.li button{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:6px;padding:.1rem .6rem;cursor:pointer}
+.tot{display:flex;justify-content:space-between;font:700 1.3rem "Bricolage Grotesque",sans-serif;margin:1rem 0}.spec{margin:.6rem 0;padding-left:1.1rem}.x{float:right}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style></head><body>
+<a class="skip" href="#home">Skip to content</a>
+<div class="bar"><div class="wrap"><span>Pay securely with Paystack, or order on WhatsApp</span><a href="tel:+27671571515">Call or WhatsApp +27 67 157 1515</a></div></div>
+<header><div class="wrap hd"><a class="brand" href="#home"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>Custom Press SA</a>
+<div class="search"><label class="sr" for="q" style="position:absolute;left:-999px">Search products</label><input id="q" type="search" placeholder="Search heat presses, vinyl, mugs..." autocomplete="off"></div>
+<button class="btn ghost sm" id="openCart" type="button">Cart <span class="cnt" id="cnt">0</span></button>
+<nav aria-label="Main"><a href="#home">Home</a><a href="#shop-machines">Machines</a><a href="#shop-printingservices">Printing</a><a href="#shop-blanks">Blanks</a><a href="#shop-supplies">Supplies</a><a href="#shop-design">Design</a><a href="#shop-signage">Signage</a><a href="#about">About</a><a href="#contact">Contact</a></nav></div></header>
+<main id="main">
+<div class="page" data-page="home" hidden>
+<div class="hero"><div class="wrap"><div><h1>Machines, materials and printing for your brand.</h1><p class="lede">Buy heat presses, a DTF printer and a vinyl cutter, or send us your artwork and we print it. DTF, sublimation and vinyl, with no minimum order.</p>
+<div class="acts"><a class="btn pri" href="#shop-machines">Shop machines</a><a class="btn ghost" href="#shop-printingservices">Printing prices</a></div>
+<ul class="ticks"><li>Based in Duduza, Gauteng</li><li>Pay online with Paystack</li><li>Replies within 24 hours</li></ul></div><div class="fx" id="fx"></div></div></div>
+<div class="trust"><div class="wrap"><div><b>No minimum order</b><span>Print one item or a hundred.</span></div><div><b>Local studio</b><span>Schools, gyms, teams, stokvels and businesses.</span></div><div><b>Secure checkout</b><span>Card payments handled by Paystack.</span></div><div><b>Real people on WhatsApp</b><span>+27 67 157 1515</span></div></div></div>
+<section><div class="wrap"><div class="sh"><h2>Shop by category</h2></div><div class="grid cats" id="cats"></div></div></section>
+<section style="padding-top:0"><div class="wrap"><div class="sh"><h2>Popular machines</h2><a href="#shop-machines">See all machines</a></div><div class="grid" id="pop"></div></div></section>
+<section style="padding-top:0"><div class="wrap"><div class="sh"><h2>Custom printing prices</h2></div>
+<table><thead><tr><th>Method</th><th>Best for</th><th>Price</th></tr></thead><tbody><tr><td>DTF</td><td>Detailed, soft-feeling prints on most fabrics</td><td>R50 per A4</td></tr><tr><td>Sublimation</td><td>Polyester shirts, mugs and key holders</td><td>R40 per A4</td></tr><tr><td>Vinyl</td><td>Bold, crisp designs on shirts, hoodies and bags</td><td>R40</td></tr></tbody></table>
+<div class="band" style="margin-top:2rem"><div><h2 style="margin:0">Not sure what you need?</h2><p>Tell us what you are printing and we will recommend a method and a price.</p></div><a class="btn wa" data-wa="Hi, I'd like a quote for printing." href="#">Get a quote on WhatsApp</a></div></div></section></div>
+<div class="page" data-page="shop" hidden><div class="wrap"><div class="pg"><h1 id="st">Shop</h1><p>Machines with a fixed price can be paid for online. For everything else, send an enquiry and we will confirm the price.</p></div>
+<div class="shop"><aside class="side" aria-label="Filters"><div><h3>Category</h3><div id="fc"></div></div><div><h3>Sort</h3><select id="so" aria-label="Sort"><option value="0">Featured</option><option value="1">Price: low to high</option><option value="2">Price: high to low</option></select></div>
+<label style="font-weight:400;display:flex;gap:.5rem;align-items:center"><input type="checkbox" id="ob" style="width:auto"> Buy online only</label></aside>
+<div><p class="note" id="rc" role="status"></p><div class="grid" id="grid"></div></div></div></div></div>
+<div class="page" data-page="about" hidden><div class="wrap"><div class="pg"><h1>About Custom Press SA</h1><p>A local print studio in Duduza, Gauteng, for people and businesses who are tired of travelling far or meeting big minimum orders.</p></div>
+<div class="split" style="margin-top:1rem"><div><h2>What we do</h2><p>DTF, sublimation, vinyl and screen printing, graphic design, and the machines and materials to start your own print business. There are no minimum order limits.</p><h2 style="margin-top:1.5rem">Why local</h2><p>We want to create jobs for local youth and keep community money in the community.</p></div>
+<div><h2>Founder</h2><p>Clinton Dludlu, Founder and CEO. He runs daily operations, graphic design and printing.</p><h2 style="margin-top:1.5rem">Find us</h2><p>2245 Marula Street, Duduza, Gauteng.<br>WhatsApp or call +27 67 157 1515.</p><a class="btn" href="#contact">Contact us</a></div></div></div></div>
+<div class="page" data-page="contact" hidden><div class="wrap"><div class="pg"><h1>Contact us</h1><p>Ask about products, printing quotes, equipment support or wholesale. We reply within 24 hours.</p></div>
+<div class="split"><form id="f"><label>Name<input name="n" required autocomplete="name"></label><label>Phone or email<input name="c" required></label><label>I need<select name="t"><option>A product</option><option>A printing quote</option><option>Equipment support</option><option>Wholesale or collaboration</option></select></label><label>Message<textarea name="m" rows="5" required></textarea></label><button class="btn wa" type="submit">Send on WhatsApp</button><p class="note">This opens WhatsApp with your message filled in.</p></form>
+<div><h2>Details</h2><p>WhatsApp or call: <a href="tel:+27671571515">+27 67 157 1515</a><br>Email: <a href="mailto:Clintondludlu3@gmail.com">Clintondludlu3@gmail.com</a><br>Web: www.cpress.co.za<br>2245 Marula Street, Duduza, Gauteng</p></div></div></div></div>
+</main>
+<footer><div class="wrap"><div><h3>Custom Press SA (Pty) Ltd</h3><p>Heat presses, supplies, custom printing and design.</p></div><div><h3>Shop</h3><a href="#shop-machines">Machines</a><a href="#shop-printingservices">Printing services</a><a href="#shop-blanks">Blanks</a><a href="#shop-supplies">Supplies</a></div><div><h3>Contact</h3><a href="tel:+27671571515">+27 67 157 1515</a><a href="#contact">2245 Marula Street, Duduza</a><a href="#about">About us</a></div></div>
+<div class="wrap" style="margin-top:1.5rem"><span>&copy; 2026 Custom Press SA (Pty) Ltd. Prices include VAT where stated and may change.</span></div></footer>
+<dialog id="pd" aria-labelledby="pn"><button class="btn ghost sm x" type="button" id="pc" aria-label="Close">Close</button><div id="pb"></div></dialog>
+<dialog id="cart" aria-labelledby="ct"><h2 id="ct">Your cart</h2><div id="items"></div><div class="tot"><span>Total</span><span id="tot">R0</span></div>
+<form id="co"><label>Full name<input name="n" required autocomplete="name"></label><label>Email (for your receipt)<input name="e" type="email" required autocomplete="email"></label><label>Phone<input name="p" type="tel" required autocomplete="tel"></label>
+<label>Delivery or collection<select name="d"><option>Collect in Duduza</option><option>Deliver to me</option></select></label><label>Delivery address (if delivering)<input name="a" autocomplete="street-address"></label><div class="err" id="err" role="alert"></div>
+<button class="btn pri" type="submit" id="pay">Pay with Paystack</button><button class="btn ghost" type="button" id="close">Keep shopping</button><p class="note">Delivery costs are not included. We confirm delivery and cost with you on WhatsApp after you pay.</p></form></dialog>
+<script src="https://js.paystack.co/v1/inline.js"></script>
+<script>
+(function(){
+var PK="pk_test_7418780848303a03ffa1740183d883f945c41132",WA="27671571515",IMG="https://raw.githubusercontent.com/springsartgallery21-crypto/Cress-images/main/";
+var CATS={machines:"Machines",printingservices:"Printing services",blanks:"Blanks",supplies:"Supplies",design:"Design",signage:"Signage"};
+var CD={machines:"Heat presses, a vinyl cutter and a DTF printer.",printingservices:"DTF, sublimation and vinyl printing.",blanks:"Shirts, hoodies, caps, bags, mugs and key rings.",supplies:"Vinyl rolls and heat-resistant tape.",design:"Graphic design and websites.",signage:"Banners, vehicle graphics and lit displays."};
+var CI={machines:"567.webp",blanks:"983.webp",supplies:"978.webp"};
+var P=[
+["machines","Heatware swing-away flat press","1400W flat press for garments and flat items.",4500,"R4 500","567.webp",0,["1400W","380 x 380 mm","Swing-away"]],
+["machines","Portable handheld mini heat press","Small handheld press for small items.",1500,"R1 500","569%402x.webp",1,["Handheld","Up to 60 x 100 mm heating area"]],
+["machines","A3 DTF printer, single XP600 barebone","Barebone A3 unit for direct-to-film printing.",28200,"R28 200","570.webp",0,["A3","Single Epson XP600 printhead","Barebone unit"]],
+["machines","Heatware 5-piece multitalent","Flat press with mug, plate and cup attachments.",6500,"R6 500","572.webp",0,["1400W","380 x 380 mm flat press","Mug press","Two plate presses","Cup press"]],
+["machines","Heatware 9-piece multitalent","Flat press, shoe press and 3D shape presses.",9000,"R9 000","574.webp",0,["1400W","380 x 380 mm flat press","Shoe press","All 3D shape presses (mugs, plates, cups, caps)"]],
+["machines","Heatware 10-piece multitalent","The 9-piece set plus a pen press.",12000,"R12 000","575.webp",0,["1400W","380 x 380 mm flat press","Shoe press","Pen press","All 3D shape presses"]],
+["machines","Vinyl 14 Studio cutter, 720 mm","Contour-cutting vinyl cutter with software.",8500,"R8 500","663.webp",0,["720 mm working area","Contour cutting","Collection basket","VinylCut software"]],
+["machines","Mug press","Press for standard 320 ml sublimation mugs.",0,"","665.webp",1,["320 ml mugs"]],
+["machines","Heatware 1200W clamshell flat press","Clamshell flat press, Model F3802.",5200,"R5 200","",0,["1200W","380 x 380 mm","Max 205 °C","220 V","Model F3802"]],
+["machines","5-in-1 heat press combo, 850W","Flat press with mug press, cap press and plate sponges.",0,"","562.webp",0,["850W","290 x 380 mm flat press","320 ml mug press","Cap press","Sponges for 25 cm and 20 cm plates","Max 205 °C, 220 V","Model F910"]],
+["machines","5-in-1 portable heat press, 1000W","Portable combo with mug press, cap press and plate sponges.",0,"","560.webp",0,["1000W","250 x 300 mm flat press","320 ml mug press","Cap press","Sponges for 25 cm and 20 cm plates","Max 200 °C, 220 V","Model P1210"]],
+["printingservices","DTF print","Detailed, wash-resistant transfers for most fabrics.",0,"R50 per A4","",0,[]],
+["printingservices","Sublimation print on polyester shirts","Full-colour sublimation on polyester.",0,"R40 per A4","",0,[]],
+["printingservices","Vinyl print","Vinyl printing and cutting for garments and decals.",0,"R40","",0,[]],
+["printingservices","Sublimation mug","Full-wrap print on a standard 320 ml white mug.",0,"","",0,[]],
+["printingservices","Sublimation key holder","Custom key holders for gifts and branding.",0,"","",0,[]],
+["printingservices","Colour-change magic mug","Reveals your design when filled with a hot drink.",0,"","",0,[]],
+["blanks","Blank caps","Plain caps ready to print.",0,"From R50","998.webp",0,[]],
+["blanks","Blank T-shirts","Plain T-shirts ready to print.",0,"From R50","983.webp",0,[]],
+["blanks","Blank bags","Plain bags ready to print.",0,"From R50","985.webp",0,[]],
+["blanks","Blank key rings","Key ring blanks for sublimation.",0,"From R50","987.webp",0,[]],
+["blanks","Blank mugs","Standard 320 ml white sublimation mugs.",0,"From R50","988.webp",0,[]],
+["blanks","Blank hoodies","Plain hoodies ready to print.",0,"From R50","990.webp",0,[]],
+["supplies","Adhesive vinyl roll, 60 x 100 cm","Vinyl roll for cutting and pressing.",0,"From R150","978.webp",0,["60 x 100 cm"]],
+["supplies","Heat-resistant tape","Holds transfers in place while pressing.",0,"From R50","980.webp",0,[]],
+["design","Graphic design","Design to print, branding, mockups and social media graphics.",0,"From R50","",0,[]],
+["design","Website design","Business sites, portfolios and online stores. Mobile-friendly and fast.",0,"From R1 500","",0,[]],
+["signage","Custom signage","Shop fronts, outdoor banners and exhibition displays.",0,"","",0,[]],
+["signage","Vehicle wraps and vinyl graphics","Full and partial wraps, lettering and decals.",0,"","",0,[]],
+["signage","LED backlit displays","Lit signs and display panels.",0,"","",0,[]]
+].map(function(a,i){return{id:i,cat:a[0],n:a[1],d:a[2],price:a[3],label:a[4],img:a[5],oos:!!a[6],sp:a[7]}});
+function wa(t){return"https://wa.me/"+WA+"?text="+encodeURIComponent(t)}
+function R(n){return"R"+String(n).replace(/\B(?=(\d{3})+(?!\d))/g," ")}
+function $(i){return document.getElementById(i)}
+function el(t,c,h){var e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+var NONE='<span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>';
+function photo(p,src){var d=el("div","ph"+(src?"":" none"),src?'<img loading="lazy" alt="'+esc(p)+'" src="'+IMG+src+'">':NONE);var i=d.querySelector("img");if(i)i.onerror=function(){d.className="ph none";d.innerHTML=NONE};return d}
+function label(p){return p.oos?"Out of stock":p.price?R(p.price)+' <small>incl. VAT</small>':p.label?esc(p.label):"<small>Price on request</small>"}
+var cart={};try{cart=JSON.parse(localStorage.getItem("cpsa_cart")||"{}")}catch(e){}
+function save(){try{localStorage.setItem("cpsa_cart",JSON.stringify(cart))}catch(e){}}
+function total(){return Object.keys(cart).reduce(function(s,k){return s+(P[k]?P[k].price*cart[k]:0)},0)}
+function count(){return Object.keys(cart).reduce(function(s,k){return s+cart[k]},0)}
+function add(p){cart[p.id]=(cart[p.id]||0)+1;save();draw()}
+function draw(){$("cnt").textContent=count();var it=$("items"),ks=Object.keys(cart).filter(function(k){return P[k]});it.innerHTML=ks.length?"":"<p>Your cart is empty.</p>";
+ ks.forEach(function(k){var p=P[k],r=el("div","li","<span>"+esc(p.n)+"<br><small>"+R(p.price)+" each</small></span>"),c=el("span","",'<button type="button" aria-label="Remove one">-</button> <b>'+cart[k]+'</b> <button type="button" aria-label="Add one">+</button>');
+ c.children[0].onclick=function(){if(--cart[k]<1)delete cart[k];save();draw()};c.children[2].onclick=function(){cart[k]++;save();draw()};r.appendChild(c);it.appendChild(r)});
+ $("tot").textContent=R(total());$("pay").disabled=!ks.length}
+function actions(p,full){var r=el("div","row");
+ if(p.price&&!p.oos){var a=el("button","btn pri sm","Add to cart");a.type="button";a.onclick=function(){add(p);a.textContent="Added";setTimeout(function(){a.textContent="Add to cart"},900)};r.appendChild(a)}
+ var w=el("a","btn wa sm",p.oos?"Notify me":"Enquire");w.href=wa((p.oos?"Hi, please tell me when this is back in stock: ":"Hi, I'm interested in: ")+p.n);r.appendChild(w);
+ if(!full){var v=el("button","btn ghost sm","Details");v.type="button";v.onclick=function(){open(p)};r.appendChild(v)}return r}
+function open(p){var b=$("pb");b.innerHTML="";var h=el("h2","",esc(p.n));h.id="pn";b.appendChild(photo(p.n,p.img));b.appendChild(el("p","cat",CATS[p.cat]));b.appendChild(h);b.appendChild(el("div","price",label(p)));b.appendChild(el("p","",esc(p.d)));
+ if(p.sp.length)b.appendChild(el("ul","spec",p.sp.map(function(s){return"<li>"+esc(s)+"</li>"}).join("")));b.appendChild(actions(p,1));$("pd").showModal()}
+function card(p){var c=el("article","card"),ph=photo(p.n,p.img);ph.onclick=function(){open(p)};c.appendChild(ph);c.appendChild(el("span","cat",CATS[p.cat]));
+ var h=el("h3","",'<a href="#" >'+esc(p.n)+"</a>");h.firstChild.onclick=function(e){e.preventDefault();open(p)};c.appendChild(h);
+ if(p.sp.length)c.appendChild(el("div","chips",p.sp.slice(0,2).map(function(s){return"<span>"+esc(s)+"</span>"}).join("")));
+ c.appendChild(el("div",p.oos?"oos":"price",label(p)));c.appendChild(actions(p));return c}
+var cur="machines",Q="";
+function list(){var g=$("grid");g.innerHTML="";var l=P.filter(function(p){return(cur==="all"||p.cat===cur)&&(!Q||(p.n+" "+p.d+" "+CATS[p.cat]).toLowerCase().indexOf(Q)>-1)&&(!$("ob").checked||(p.price&&!p.oos))});
+ var s=$("so").value;if(s!=="0")l=l.slice().sort(function(a,b){return(s==="1"?1:-1)*((a.price||1e9)-(b.price||1e9))});
+ $("rc").textContent=l.length+(l.length===1?" product":" products");l.forEach(function(p){g.appendChild(card(p))});if(!l.length)g.appendChild(el("p","","No products match. Try another search or <a href=\"#contact\">ask us</a>."));
+ $("st").textContent=Q?"Search results":cur==="all"?"All products":CATS[cur];
+ document.querySelectorAll("#fc button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.c===cur)})}
+var fc=$("fc");["all"].concat(Object.keys(CATS)).forEach(function(k){var n=k==="all"?P.length:P.filter(function(p){return p.cat===k}).length;var b=el("button","f",(k==="all"?"All products":CATS[k])+"<span>"+n+"</span>");b.type="button";b.dataset.c=k;b.onclick=function(){Q="";$("q").value="";location.hash=k==="all"?"shop":"shop-"+k};fc.appendChild(b)});
+var cs=$("cats");Object.keys(CATS).forEach(function(k){var a=el("a","card");a.href="#shop-"+k;a.appendChild(photo(CATS[k],CI[k]||""));a.appendChild(el("div","t","<h3>"+CATS[k]+"</h3><p>"+CD[k]+"</p>"));cs.appendChild(a)});
+[0,6,2,3].forEach(function(i){$("pop").appendChild(card(P[i]))});[0,2,6].forEach(function(i){$("fx").appendChild(photo(P[i].n,P[i].img))});
+function route(){var h=(location.hash||"#home").slice(1),k=h.split("-")[0];if(["home","shop","about","contact"].indexOf(k)<0)k="home";
+ if(k==="shop"){var c=h.slice(5);cur=CATS[c]?c:(Q?"all":(h==="shop"?"all":cur));list()}
+ document.querySelectorAll(".page").forEach(function(p){p.hidden=p.dataset.page!==k});
+ document.querySelectorAll("nav a").forEach(function(a){var t=a.getAttribute("href").slice(1);if(t===h||(h==="shop"&&t==="shop-machines"&&0))a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
+ document.title=({home:"Custom Press SA",shop:"Shop",about:"About",contact:"Contact"})[k]+(k==="home"?"":" | Custom Press SA");window.scrollTo(0,0)}
+addEventListener("hashchange",route);
+$("q").addEventListener("input",function(){Q=this.value.trim().toLowerCase();if(location.hash.indexOf("#shop")!==0){cur="all";location.hash="shop"}else{if(Q)cur="all";list()}});
+$("so").onchange=list;$("ob").onchange=list;
+document.querySelectorAll("[data-wa]").forEach(function(a){a.href=wa(a.dataset.wa)});
+$("pc").onclick=function(){$("pd").close()};var d=$("cart");$("openCart").onclick=function(){draw();d.showModal()};$("close").onclick=function(){d.close()};
+$("co").addEventListener("submit",function(e){e.preventDefault();var f=new FormData(this),err=$("err");err.textContent="";if(!total())return;
+ if(f.get("d")==="Deliver to me"&&!f.get("a").trim()){err.textContent="Enter a delivery address, or choose collection.";return}
+ if(typeof PaystackPop==="undefined"){err.textContent="Payment could not load. Check your internet connection and try again.";return}
+ var sum=Object.keys(cart).map(function(k){return cart[k]+" x "+P[k].n+" ("+R(P[k].price)+")"}).join("; "),amt=total();
+ PaystackPop.setup({key:PK,email:f.get("e"),amount:amt*100,currency:"ZAR",ref:"CPSA-"+Date.now(),
+  metadata:{custom_fields:[{display_name:"Name",variable_name:"name",value:f.get("n")},{display_name:"Phone",variable_name:"phone",value:f.get("p")},{display_name:"Delivery",variable_name:"delivery",value:f.get("d")+" "+f.get("a")},{display_name:"Items",variable_name:"items",value:sum}]},
+  callback:function(r){cart={};save();draw();d.close();location.href=wa("Hi, I have paid on the website. Ref: "+r.reference+". Name: "+f.get("n")+". Phone: "+f.get("p")+". Items: "+sum+". Total: "+R(amt)+". "+f.get("d")+(f.get("a")?": "+f.get("a"):""))},onClose:function(){}}).openIframe()});
+$("f").addEventListener("submit",function(e){e.preventDefault();var d=new FormData(this);location.href=wa("Hi, I'm "+d.get("n")+" ("+d.get("c")+"). I need: "+d.get("t")+". "+d.get("m"))});
+draw();route();
+})();
+</script></body></html>
